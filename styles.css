@@ -1,0 +1,40 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+    margin: auto 200px;
+}
+
+#recipes-list {
+    border-style: dashed;
+    border-color: black;
+    border-radius: 2px;
+    background-color: antiquewhite;
+    padding: 4px;
+    margin: auto 200px;
+}
+
+.recipe {
+    display: inline-block;
+    background-image: url("./images/paper.jpg");
+    padding: 4px;
+    margin: 8px;
+    text-align:center;
+}
+
+.plated {
+    width: 25%;
+    height: 25%;
+}
+
+.recipe .plated {
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.recipe:hover {
+    transform: scale(1.1);
+    transition: transform 100ms ease-in-out;
+}
